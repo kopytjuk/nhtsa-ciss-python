@@ -24,7 +24,7 @@ class BlitzReader:
         layer = root.find(f'scene/layers/layer[@name="{name}"]')
         return layer
 
-    def get_gosmodels(
+    def get_vehicles(
         self, layer_name: str = "Default", only_named: bool = False
     ) -> List[GosModel]:
         """Extracts available vehicles.

@@ -14,6 +14,6 @@ def test_gosmodels():
 
     reader = BlitzReader("tests/20201010130.blz")
 
-    models = reader.get_gosmodels()
+    models = reader.get_vehicles()
 
     assert isinstance(models, list)
