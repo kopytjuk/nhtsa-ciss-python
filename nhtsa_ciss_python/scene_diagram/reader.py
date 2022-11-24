@@ -89,7 +89,7 @@ class BlitzReader:
             labels.append(label)
         return labels
 
-    def get_polycurves(self, layer_name: str = "Default") -> List[PolyCurve]:
+    def get_curves(self, layer_name: str = "Default") -> List[PolyCurve]:
         """Extracts available labels with text.
 
         Args:

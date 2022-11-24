@@ -14,8 +14,14 @@ from nhtsa_ciss_python.scene_diagram import BlitzReader
 
 reader = BlitzReader("tests/20201010130.blz")
 
+# vehicle shapes
 vehicles = reader.get_vehicles(only_named=True)
+
+# vehicle IDs, event IDs, human annotations
 labels = reader.get_labels()
+
+# lane markings, walls
+curves = reader.get_curves()
 ```
 
 See the [notebook](examples/read_scene_diagram.ipynb) for an example visualization.
