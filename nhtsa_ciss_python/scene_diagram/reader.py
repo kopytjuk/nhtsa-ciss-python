@@ -31,7 +31,7 @@ class BlitzReader:
 
         Args:
             layer_name (str, optional): Layer name. Defaults to "Default".
-            only_named (bool, optional): Ignores objects \wo name. Defaults to False.
+            only_named (bool, optional): Ignores objects /wo name. Defaults to False.
 
         Returns:
             List[GosModel]: parsed road objects
@@ -64,7 +64,7 @@ class BlitzReader:
 
         Args:
             layer_name (str, optional): Layer name. Defaults to "Default".
-            only_named (bool, optional): Ignores objects \wo name. Defaults to False.
+            only_named (bool, optional): Ignores objects /wo name. Defaults to False.
 
         Returns:
             List[Label]: parsed road objects
@@ -94,7 +94,7 @@ class BlitzReader:
 
         Args:
             layer_name (str, optional): Layer name. Defaults to "Default".
-            only_named (bool, optional): Ignores objects \wo name. Defaults to False.
+            only_named (bool, optional): Ignores objects /wo name. Defaults to False.
 
         Returns:
             List[Label]: parsed road objects
