@@ -1,6 +1,6 @@
 # NHTSA CISS API
 
-Python API to NHTSA Crash Investigation Sampling System (CISS).
+Python API to NHTSA Crash Investigation Sampling System ([CISS](https://www.nhtsa.gov/crash-data-systems/crash-investigation-sampling-system)).
 
 ## Scene diagram
 
@@ -31,3 +31,5 @@ See the [notebook](examples/read_scene_diagram.ipynb) for an example visualizati
 ## Case overview
 
 TBD
+
+## Further information
