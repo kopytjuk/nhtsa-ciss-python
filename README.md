@@ -4,7 +4,7 @@ Python API to NHTSA Crash Investigation Sampling System (CISS).
 
 ## Scene diagram
 
-Read the contents of the `blz` file:
+Given a case a scene diagram from [CISS Case Number 1-10-2020-130-01](https://crashviewer.nhtsa.dot.gov/CISS/Details?Study=CISS&CaseId=18892) as `.blz` file:
 
 ```python
 import matplotlib.pyplot as plt
@@ -22,4 +22,4 @@ See the [notebook](examples/read_scene_diagram.ipynb) for an example visualizati
 
 ## Case overview
 
-tbd
+TBD
